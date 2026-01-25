@@ -86,9 +86,15 @@ python -m uvicorn src.api.main:app --reload
 **Results Summary**
 Results based on the `tweet_eval` (sentiment) test set:
 
-Model    Accuracy   F1-Score(Weighted)    Inference Latency
-Baseline  0.5850     0.5759                <5ms
-Advanced  0.6931     0.6913                ~50 ms (CPU)
+Model = Baseline                     
+Accuracy = 0..5850 
+F1-Score(Weighted) = 0.5759
+Inference Latency = <5ms
+
+Model = Advanced  
+Accuracy = 0.6931     
+F1-Score(Weighted) = 0.6913               
+Inference Latency = ~50 ms (CPU)
 
 
 ## 5. Testing
