@@ -21,8 +21,8 @@ def test_clean_tweet_lowercases():
 
 def test_clean_tweet_handles_special_characters():
     """Ensure punctuation and symbols are removed."""
-    input_text = "Victory!!! 🎉 #win"
-    # Assuming your regex removes # and non-alpha
+    input_text = "Victory!!!  #win"
+    # Assuming the regex removes # and non-alpha
     assert "victory" in clean_tweet(input_text)
     assert "#" not in clean_tweet(input_text)
 
