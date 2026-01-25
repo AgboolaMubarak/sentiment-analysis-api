@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# Models 
+# Ignore the entire models directory
+models/
+# Or specifically ignore large model files
+*.bin
+*.pth
+*.joblib
+*.h5
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Logging
+logs/
+*.log
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+.docker_temp/
+
+# Hugging Face / Transformers
+results/
+runs/
+checkpoint-*/
+trainer_state.json
+
+# FastAPI / Uvicorn
+*.sqlite3
+
+# Python cache
+.mypy_cache/

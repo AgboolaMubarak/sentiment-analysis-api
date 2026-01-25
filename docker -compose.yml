@@ -1,0 +1,13 @@
+services:
+  sentiment-api:
+    build: .
+    container_name: sentiment_analysis_service
+    ports:
+      - "8000:8000"
+    environment:
+      #I can toggle between 'baseline' and 'advanced' here
+      - MODEL_TYPE=advanced
+      - PYTHONPATH=/app
+    volumes:
+      - ./models:/app/models
+    restart: always
