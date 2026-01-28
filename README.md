@@ -11,6 +11,7 @@ A production-ready NLP service designed to classify social media text into three
 │   │   ├── train.py        # Baseline training
 │   │   ├── load_data.py        # load data script
 │   │   └── train_advanced.py # Transformer training
+│   │   └── data/ #datasets used 
 │   ├── api/                # FastAPI application
 │   │   ├── main.py         # API routes & Lifespan management
 │   │   ├── schemas.py      # Pydantic data models
