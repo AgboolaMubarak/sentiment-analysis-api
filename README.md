@@ -9,6 +9,7 @@ A production-ready NLP service designed to classify social media text into three
 │   ├── training/           # Model training & data processing scripts
 │   │   ├── data_processing.py
 │   │   ├── train.py        # Baseline training
+│   │   ├── load_data.py        # load data script
 │   │   └── train_advanced.py # Transformer training
 │   ├── api/                # FastAPI application
 │   │   ├── main.py         # API routes & Lifespan management
